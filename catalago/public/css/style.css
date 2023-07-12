@@ -1,0 +1,110 @@
+/* style.css */
+
+/* Estilo para o navbar */
+nav {
+  background-color: #2aa4ab;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 10px;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  background-color: #077a7e;
+}
+
+.navbar-links input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* style.css */
+
+h1 {
+  font-size: 34px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/* style.css */
+
+/* Estilo para o container de produtos */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para cada card de produto */
+.product-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.product-card p.price {
+  font-weight: bold;
+}
